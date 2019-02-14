@@ -1,0 +1,8 @@
+Java is called platform independent because of Java Virtual Machine. 
+As different computers with the different operating system have their JVM, when we submit a .class file to any operating system,
+ JVM interprets the bytecode into machine level language.
+
+* JVM is the main component of Java architecture, and it is the part of the JRE (Java Runtime Environment).
+* A program of JVM is written in C Programming Language, and JVM is Operating System dependent.
+* JVM is responsible for allocating the necessary memory needed by the Java program.
+* JVM is responsible for deallocating memory space.

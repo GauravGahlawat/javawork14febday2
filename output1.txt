@@ -1,0 +1,15 @@
+int main()
+{
+	int i;
+	int arr[5] = {1};
+	for(int i=0;i<5;i++)
+		System.out.println("Array Is :" + arr[i]);
+	return 0;
+}
+
+A: 1 followed by four garbage values
+B: 10000
+C: 11111
+D: 00000
+
+Answer :  B 10000

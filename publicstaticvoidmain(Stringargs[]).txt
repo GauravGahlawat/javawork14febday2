@@ -1,0 +1,44 @@
+******Public******
+
+It is an Access Modifier, which defines who can access this Method. 
+Public means that this Method will be accessible by any Class(If other Classes can access this Class.).
+
+******Static*******
+
+Static is a keyword which identifies the class related thing. 
+It means the given Method or variable is not instance related but Class related. It can be accessed without creating the instance of a Class.
+
+*******Void********
+
+Is used to define the Return Type of the Method. It defines what the method can return. Void means the Method will not return any value.
+
+*******main******
+Main is the name of the Method. This Method name is searched by JVM as a starting point for an application with a particular signature only.
+
+**************String args[] / String… args*******
+'
+It is the parameter to the main Method. Argument name could be anything.
+
+***********************************
+*****************************************
+************************************************
+
+Public static void main (String args []) 
+1.The public keyword is an access specifies, which allows the programmer to control the visibility of class members. 
+When a class member is preceded by public, then that member may be accessed by code outside the class in which it is declared. 
+In this case, main ( ) must be declared as public. 
+
+2.The keyword static allows main ( ) to be called without having to instantiate a particular instance of the class. 
+This is necessary since main ( ) is called by the Java interpreter before any objects are made. 
+
+3.The keyword void simply tells the compiler that main ( ) does not return a value. 
+
+4.Main ( ) is the method, called when a Java application begins. 
+
+5.String args [ ] declares a parameter named args, which is an array of instances of the class String.
+
+6. In this case, args receives any command-line arguments present when the program is executed. 
+
+7.With the same name as args we can?t define one more variable we will get CTE. 
+
+8.PSVM (String [] p) p is a variable which is defined as a identifier. 

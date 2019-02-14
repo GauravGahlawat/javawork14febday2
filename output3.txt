@@ -1,0 +1,8 @@
+Can We chnage the size of the array during Runtime ?
+
+
+A: Yes
+
+B: No
+
+Answer:  A
